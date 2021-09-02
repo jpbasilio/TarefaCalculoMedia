@@ -1,5 +1,7 @@
 package calculo.media;
 /**
+ * Exercício onde o Programa lê quatro notas e exibi 
+ * a media dessas notas no Console
  * 
  * @author joao
  *
