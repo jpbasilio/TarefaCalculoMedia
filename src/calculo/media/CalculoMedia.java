@@ -1,7 +1,7 @@
 package calculo.media;
 /**
  * Exercício onde o Programa lê quatro notas e exibi 
- * a media dessas notas no Console
+ * a media dessas notas no Console com Condições
  * 
  * @author joao
  *
@@ -37,6 +37,12 @@ public class CalculoMedia {
 		md = (nota1+nota2+nota3+nota4)/4;
 		
 		System.out.println("Média das Notas: " + md);
+		
+		if(md >= 7) {
+			System.out.println("Aluno Aprovado!");
+		}else if(md >= 5) {
+			System.out.println("Aluno de Recuperação!");
+		}else System.out.println("Aluno Reprovado!");
 		
 	}
 
